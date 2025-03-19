@@ -1,0 +1,75 @@
+/* Reset básico */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #141414;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Caixa principal */
+.container {
+    background: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+/* Foto de perfil */
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Nome */
+h1 {
+    font-size: 22px;
+    margin: 5px 0;
+}
+
+/* Localização */
+.localidade {
+    color: #c4f82a;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+/* Biografia */
+.bio {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 15px;
+}
+
+/* Links das redes sociais */
+.social-links {
+    display: flex;
+    flex-direction: column; /* Um link abaixo do outro */
+    gap: 10px;
+    align-items: center;
+}
+
+.social-links a {
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    background: #c4f82a;
+    color: black;
+}
